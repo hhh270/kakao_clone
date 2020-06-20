@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/bf65bab49c.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat|Kakao Clone</title>
   </head>
   <body>
@@ -14,19 +15,20 @@
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
       </div>
-      <div class="status-bar__column"></div>
-      <!--from fontawesome-->
-      <i class="far fa-clock"></i>
-      <i class="fas fa-volume-up"></i>
-      <i class="fas fa-wifi"></i>
-      <i class="fas fa-battery-full"></i>
-      <span class="status-bar__battery-level">100%</span>
+      <div class="status-bar__column">
+        <!--from fontawesome-->
+        <i class="far fa-clock"></i>
+        <i class="fas fa-volume-up"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-full"></i>
+        <span class="status-bar__battery-level">100%</span>
+      </div>
     </div>
     <header class="header">
       <div class="header__header-column">
         <div class="header__back-btn">
           <a href="index.html">
-            <i class="fas fa-arrow-left fa-2x"></i>
+            <i class="fas fa-arrow-left"></i>
           </a>
         </div>
         <h1 class="header__title">Louis</h1>
@@ -44,7 +46,10 @@
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, June 13, 2020</span>
         <li class="incoming-message message">
-          <img src="images/faceoflouis.jpg" class="g-avatar message__avatar" />
+          <img
+            src="images/faceoflouis.jpg"
+            class="midium-avatar message__avatar"
+          />
           <div class="message__content">
             <span class="message__author">Louis</span>
             <div class="message__bubble">

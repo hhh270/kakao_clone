@@ -1,0 +1,22 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+
+* {
+  box-sizing: border-box;
+  /*box size will take a standard by border*/
+}
+body {
+  background-color: white;
+  padding: 10px 20px; /*top & bottom 10px, left & right is 20px*/
+  color: #020202;
+  font-family: "Open Sans";
+}
+
+a {
+  color: inherit; /*turn purple to before click, get the color from parent*/
+  text-decoration: none; /*erase the underline at link.*/
+}

@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/bf65bab49c.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Find|Kakao Clone</title>
   </head>
   <body>
@@ -14,13 +15,14 @@
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54</span>
       </div>
-      <div class="status-bar__column"></div>
+      <div class="status-bar__column">
       <!--from fontawesome-->
       <i class="far fa-clock"></i>
       <i class="fas fa-volume-up"></i>
       <i class="fas fa-wifi"></i>
       <i class="fas fa-battery-full"></i>
       <span class="status-bar__battery-level">100%</span>
+    </div>
     </div>
     <header class="header">
       <div class="header__header-column">
@@ -78,7 +80,7 @@
       </h5>
       <li class="find__friend friend friend--lg">
         <div class="friend__column">
-          <img src="images/kim.jpg" class="g-avatar friend__avatar" />
+          <img src="images/kim.jpg" class="friend__avatar" />
           <div class="friend__content">
             <span class="friend__name">
               김관섭
@@ -93,7 +95,7 @@
         </div>
       </li>
     </main>
-    <nav class="navigation">
+    <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
@@ -102,6 +104,8 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">2</div>
+            <!--Badge-->
             <i class="far fa-comment"></i>
           </a>
         </li>

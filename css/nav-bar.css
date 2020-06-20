@@ -1,0 +1,42 @@
+.nav {
+  position: fixed; /*when you scroll a page, nav-bar will follow you*/
+  width: 100%;
+  background-color: #fcfcfc;
+  bottom: 0px;
+  left: 0px;
+  padding: 20px 50px;
+  /* when you use position: fixed, you have to setting width, also*/
+  border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 24px;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  /*if the parrent(in this case, .nv__list-link) doesn't have a relative mark at position.
+  children will follow body for making position*/
+  top: -12px;
+  right: -10px;
+  font-size: 15px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /*this will be change a shape of square's edge*/
+}

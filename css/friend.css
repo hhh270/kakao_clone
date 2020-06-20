@@ -1,0 +1,56 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 37%;
+}
+
+.friend__avatar.midium-avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.friend__avatar.g-avatar {
+  width: 70px;
+  height: 70px;
+}
+/*if the avatar seperate with g-avatar then it means g-avatar inside friend__avatar*/
+/*this one means applying avatar and g-avatar, also*/
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__column .friend__avatar {
+  margin-right: 10px;
+}
+
+.friend__content .friend__name {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text {
+  opacity: 0.7;
+  display: block;
+}
+.friend__content .friend__status {
+  font-size: 14px;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 16px;
+}
+
+.friend .chat__timestamp {
+  font-size: 13px;
+  opacity: 0.7;
+}
