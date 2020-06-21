@@ -34,13 +34,13 @@
 .friend__content .friend__name {
   font-size: 20px;
   display: block;
+  font-weight: 600;
   margin-bottom: 6px;
 }
 
 .friend__content .friend__status,
 .friend__content .friend__bottom-text {
   opacity: 0.7;
-  display: block;
 }
 .friend__content .friend__status {
   font-size: 14px;
@@ -53,4 +53,21 @@
 .friend .chat__timestamp {
   font-size: 13px;
   opacity: 0.7;
+}
+
+.friend .friend__now-listening {
+  border: 1.5px solid #52e084;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+/*if you want to change opacity of font only, not include border of it*/
+.friend__now-listening span {
+  opacity: 0.7;
+}
+
+.friend__now-listening i {
+  margin-left: 4px;
+  font-size: 12px;
 }
