@@ -25,6 +25,7 @@
 .friend .friend__column {
   display: flex;
   align-items: center;
+  padding-top: 15px;
 }
 
 .friend__column .friend__avatar {

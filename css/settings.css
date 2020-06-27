@@ -1,6 +1,24 @@
 .settings .settings__sections {
-  border-top: 1px solid #f7f7f7;
-  padding: 30px 0px;
+  padding: 20px 0px;
+}
+
+.settings__setting {
+  border-bottom: 1px solid #f7f7f7;
+  padding-bottom: 15px;
+}
+
+.settings__setting i {
+  margin-left: 6px;
+}
+
+.settings__setting .fa-info {
+  padding: 0px 5px;
+}
+
+.settings__setting .settings__title2 {
+  padding-top: 10px;
+  padding-left: 50px;
+  opacity: 0.7;
 }
 
 .settings__setting .settings__icon {
@@ -10,7 +28,7 @@
 
 .settings__setting .settings__title {
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .settings .settings__setting {
@@ -19,4 +37,6 @@
 
 .settings .settings__setting:last-child {
   margin-bottom: 0px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f7f7f7;
 }

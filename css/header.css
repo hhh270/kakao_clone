@@ -45,3 +45,26 @@
   font-size: 22px;
   margin-right: 20px;
 }
+
+.header .header__header-column .header__icon2 {
+  font-size: 20px;
+  margin-left: 12px;
+  cursor: pointer; /*to change appearance of mouse cursor as clicker*/
+  position: relative;
+}
+.header .header__header-column .header__badge2 {
+  position: absolute;
+  right: -40%;
+  top: 0px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
