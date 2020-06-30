@@ -86,9 +86,12 @@
   /*text-transform: uppercase;*/
 }
 
+/*chat with friend4*/
+
 .message {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .message .message__content {
@@ -103,19 +106,54 @@
 
 .incoming-message {
   align-self: flex-start;
-  width: 80%;
+  width: 70%;
 }
 
 .sent-message {
   align-self: flex-end;
-  width: 65%;
+  width: 60%;
+}
+
+.message__timestamp {
+  width: 18%;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.incoming-message .message__author {
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.incoming-message .message__timestamp {
+  margin-bottom: -12%;
+}
+
+.sent-message .message__timestamp {
+  margin-bottom: -8%;
 }
 
 .message .message__bubble {
+  font-weight: 600;
   padding: 10px;
   background-color: white;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
     rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
   /*text-transform: uppercase;*/
+}
+
+.incoming-message .message__bubble {
+  color: white;
+  border-top-left-radius: 0px;
+  /* top to bottom -> background-image: linear-gradient(#ffffff, #a1ffce);*/
+  background-image: linear-gradient(to right, #2c3e50, #fd746c);
+}
+
+.sent-message .message__bubble {
+  color: rgb(58, 50, 65);
+  border-top-right-radius: 0px;
+  background-image: linear-gradient(to left, #be93c5, #7bc6cc);
 }
