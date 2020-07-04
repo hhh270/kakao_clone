@@ -1,5 +1,6 @@
 .status-bar {
   display: flex;
+  top: 0px;
   justify-content: space-between;
   margin-bottom: 30px;
   opacity: 0.7; /*give a haze to font*/

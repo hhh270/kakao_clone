@@ -1,17 +1,28 @@
-.chat-screen {
-  /*background-color: red;*/
-  background-image: url(../images/chartbg.png);
-  min-height: 100vh;
-  /*to give 100% to viewport(viewport is screen)*/
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  padding-top: 10px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 18px 36px -18px rgba(0, 0, 0, 0.3),
+    0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
 .chats-body {
-  padding: 0;
+  padding: 10px 0px;
+  padding-top: 150px;
 }
 
 .chats-body .header,
 .chats-body .status-bar {
   padding: 0px 20px;
+}
+
+.chats-body {
+  /*background-color: red;*/
+  background-image: url(../images/chartbg.png);
+  min-height: 110vh;
+  /*to give 100% to viewport(viewport is screen)*/
 }
 
 .chat__write {
