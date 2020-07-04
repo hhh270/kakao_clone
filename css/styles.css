@@ -17,6 +17,7 @@
 body {
   background-color: white;
   padding: 10px 20px; /*top & bottom 10px, left & right is 20px*/
+  margin-bottom: 120px;
   color: #020202;
   font-family: "Open Sans";
 }
