@@ -1,5 +1,7 @@
 .header-wrapper {
   position: fixed;
+  z-index: 2;
+  /*비침방지 레이어 순서*/
   top: 0px;
   padding-top: 10px;
   width: 100%;

@@ -9,7 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
-
+@import "mobile.css";
 * {
   box-sizing: border-box;
   /*box size will take a standard by border*/
@@ -25,4 +25,18 @@ body {
 a {
   color: inherit; /*turn purple to before click, get the color from parent*/
   text-decoration: none; /*erase the underline at link.*/
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+main {
+  animation: fadeIn 0.5s ease-in-out;
 }

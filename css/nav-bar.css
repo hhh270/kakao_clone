@@ -40,3 +40,20 @@
   border-radius: 50%;
   /*this will be change a shape of square's edge*/
 }
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+    opacity: 0.5;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.nav {
+  transform: translateY(80px);
+  animation: showNavBar 0.8s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
